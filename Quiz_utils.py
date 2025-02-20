@@ -8,7 +8,7 @@ from Data import *
 import random as ll
 
 def load_questions():
-    df = pd.read_csv("data/questions.csv")
+    df = pd.read_csv("Data/questions.csv")
     df.fillna("", inplace=True)
     return df
 

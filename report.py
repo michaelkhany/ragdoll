@@ -119,7 +119,7 @@ def extract_non_compliant_entries(text_output):
 
 
 def save_json():
-    with open('data/answers.json', 'w') as f:
+    with open('Data/answers.json', 'w') as f:
         json.dump(st.session_state.QA, f, indent=4)
 
 def display_risk(risk_level):

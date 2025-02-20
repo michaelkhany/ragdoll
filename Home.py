@@ -7,10 +7,7 @@ def get_base64_of_image(image_path):
         return base64.b64encode(img_file.read()).decode("utf-8")
 
 image_base64 = get_base64_of_image('assets/iconizer-s.svg')
-# question_base64 = get_base64_of_image('assets/question.svg')
-# home_base64 = get_base64_of_image('assets/home.svg')
-# report_base64 = get_base64_of_image('assets/report.svg')
-# info_base64 = get_base64_of_image('assets/info.svg')
+#
 
 def show_home_page():
     image_base64 = get_base64_of_image('assets/iconizer-s.svg')

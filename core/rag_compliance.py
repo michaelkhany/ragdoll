@@ -72,7 +72,7 @@ def call_api(query, content, retries=3):
     prompt = (
         f"Analyze the following article and determine whether it complies with the inputs. "
         f"Return 'Complies' or 'Does not comply' with a reason.\n\n"
-        f'{{ "Document": "Placeholder_Document.txt", "Result": {{ "result": "Complies or Does not comply", "reason": "This is a placeholder response. The actual compliance evaluation will be determined based on the document\'s content." }} }}\n\n'        f"Article: {content}\n\n"
+        f'{{ "Article": "Placeholder_Article.txt", "Result": {{ "result": "Complies or Does not comply", "reason": "This is a placeholder response. The actual compliance evaluation will be determined based on the document\'s content." }} }}\n\n'        f"Article: {content}\n\n"
         f"Input: {query}\n\n"
     )
     data = {

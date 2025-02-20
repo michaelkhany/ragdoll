@@ -66,7 +66,7 @@ def show_quiz_content(all_questions):
         if response:
             st.session_state.QA[question_id] = {"Question": question_text, "Answer": response}
             
-            next_question_ID, stop = get_n_questions(st.session_state.QA, load_questions())
+            next_question_ID, stop = get_n_questions()
             st.session_state.unable_next = False
             is_q = True
         if stop:

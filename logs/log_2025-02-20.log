@@ -378,3 +378,97 @@
 2025-02-20 07:24:03,189 - INFO - Checking compliance for document: Article Annex 3 Number 9.txt
 2025-02-20 07:24:04,735 - INFO - Checking compliance for document: Article Annex 3 Number 10.txt
 2025-02-20 07:24:06,769 - INFO - Checking compliance for document: Article 5 Number 7.txt
+2025-02-20 11:41:40,216 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-02-20 11:41:49,436 - INFO - Checking compliance for document: Article 5 Number 3.txt
+2025-02-20 11:41:59,591 - WARNING - API call attempt 1 failed: HTTPSConnectionPool(host='synchange.com', port=443): Read timed out. (read timeout=10)
+2025-02-20 11:41:59,592 - INFO - Retrying API call...
+2025-02-20 11:42:09,734 - WARNING - API call attempt 2 failed: HTTPSConnectionPool(host='synchange.com', port=443): Read timed out. (read timeout=10)
+2025-02-20 11:42:09,735 - INFO - Retrying API call...
+2025-02-20 11:42:17,596 - INFO - Checking compliance for document: Article 5 Number 5.txt
+2025-02-20 11:42:22,404 - INFO - Checking compliance for document: Article 5 Number 5.txt
+2025-02-20 11:42:25,513 - INFO - Checking compliance for document: Article Annex 3 Number 10.txt
+2025-02-20 11:42:29,603 - INFO - Checking compliance for document: Article Annex 3 Number 10.txt
+2025-02-20 11:42:35,665 - WARNING - API call attempt 1 failed: HTTPSConnectionPool(host='synchange.com', port=443): Read timed out. (read timeout=10)
+2025-02-20 11:42:35,665 - INFO - Retrying API call...
+2025-02-20 11:42:38,442 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-02-20 11:42:43,363 - INFO - Checking compliance for document: Article 5 Number 7.txt
+2025-02-20 11:42:45,610 - INFO - Checking compliance for document: Article Annex 3 Number 9.txt
+2025-02-20 11:42:53,407 - INFO - Checking compliance for document: Article 5 Number 1.txt
+2025-02-20 11:50:03,115 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-02-20 11:50:07,035 - INFO - Checking compliance for document: Article Annex 3 Number 9.txt
+2025-02-20 11:50:11,810 - INFO - Checking compliance for document: Article 5 Number 5.txt
+2025-02-20 11:50:15,754 - INFO - Checking compliance for document: Article 5 Number 7.txt
+2025-02-20 11:50:19,820 - INFO - Checking compliance for document: Article Annex 3 Number 10.txt
+2025-02-20 11:51:05,568 - INFO - Checking compliance for document: Article Annex 3 Number 11.txt
+2025-02-20 11:51:10,629 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-02-20 11:51:15,639 - INFO - Checking compliance for document: Article Annex 3 Number 9.txt
+2025-02-20 11:51:20,580 - INFO - Checking compliance for document: Article 5 Number 5.txt
+2025-02-20 11:51:25,496 - INFO - Checking compliance for document: Article 5 Number 7.txt
+2025-02-20 11:54:28,201 - INFO - Checking compliance for document: Article 5 Number 7.txt
+2025-02-20 11:54:33,530 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-02-20 11:54:35,954 - INFO - Checking compliance for document: Article 5 Number 1.txt
+2025-02-20 11:54:39,884 - INFO - Checking compliance for document: Article 5 Number 5.txt
+2025-02-20 11:54:46,263 - INFO - Checking compliance for document: Article Annex 3 Number 9.txt
+2025-02-20 12:02:28,129 - INFO - Checking compliance for document: Article 5 Number 3.txt
+2025-02-20 12:02:34,377 - INFO - Checking compliance for document: Article Annex 3 Number 9.txt
+2025-02-20 12:02:38,894 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-02-20 12:02:45,024 - INFO - Checking compliance for document: Article 5 Number 7.txt
+2025-02-20 12:02:53,222 - INFO - Checking compliance for document: Article Annex 3 Number 11.txt
+2025-02-20 12:11:32,749 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-02-20 12:11:38,135 - INFO - Checking compliance for document: Article Annex 3 Number 9.txt
+2025-02-20 12:11:43,311 - INFO - Checking compliance for document: Article 5 Number 5.txt
+2025-02-20 12:11:46,318 - INFO - Checking compliance for document: Article 5 Number 7.txt
+2025-02-20 12:11:55,738 - INFO - Checking compliance for document: Article Annex 3 Number 11.txt
+2025-02-20 12:12:05,992 - WARNING - API call attempt 1 failed: HTTPSConnectionPool(host='synchange.com', port=443): Read timed out. (read timeout=10)
+2025-02-20 12:12:05,998 - INFO - Retrying API call...
+2025-02-20 12:14:48,973 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-02-20 12:14:55,965 - INFO - Checking compliance for document: Article 5 Number 5.txt
+2025-02-20 12:15:00,399 - INFO - Checking compliance for document: Article Annex 3 Number 10.txt
+2025-02-20 12:15:08,762 - INFO - Checking compliance for document: Article Annex 3 Number 9.txt
+2025-02-20 12:15:18,926 - WARNING - API call attempt 1 failed: HTTPSConnectionPool(host='synchange.com', port=443): Read timed out. (read timeout=10)
+2025-02-20 12:15:18,933 - INFO - Retrying API call...
+2025-02-20 12:15:23,101 - INFO - Checking compliance for document: Article 5 Number 7.txt
+2025-02-20 12:17:40,387 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-02-20 12:17:45,649 - INFO - Checking compliance for document: Article Annex 3 Number 9.txt
+2025-02-20 12:17:48,412 - INFO - Checking compliance for document: Article Annex 3 Number 11.txt
+2025-02-20 12:17:54,245 - INFO - Checking compliance for document: Article 5 Number 5.txt
+2025-02-20 12:17:57,012 - INFO - Checking compliance for document: Article Annex 3 Number 10.txt
+2025-02-20 12:40:36,765 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-02-20 12:40:38,746 - INFO - Checking compliance for document: Article 5 Number 3.txt
+2025-02-20 12:40:48,944 - WARNING - API call attempt 1 failed: HTTPSConnectionPool(host='synchange.com', port=443): Read timed out. (read timeout=10)
+2025-02-20 12:40:48,944 - INFO - Retrying API call...
+2025-02-20 12:40:50,639 - INFO - Checking compliance for document: Article Annex 3 Number 9.txt
+2025-02-20 12:41:00,948 - WARNING - API call attempt 1 failed: HTTPSConnectionPool(host='synchange.com', port=443): Read timed out. (read timeout=10)
+2025-02-20 12:41:00,956 - INFO - Retrying API call...
+2025-02-20 12:41:11,192 - WARNING - API call attempt 2 failed: HTTPSConnectionPool(host='synchange.com', port=443): Read timed out. (read timeout=10)
+2025-02-20 12:41:11,192 - INFO - Retrying API call...
+2025-02-20 12:41:19,188 - INFO - Checking compliance for document: Article Annex 3 Number 11.txt
+2025-02-20 12:41:29,408 - WARNING - API call attempt 1 failed: HTTPSConnectionPool(host='synchange.com', port=443): Read timed out. (read timeout=10)
+2025-02-20 12:41:29,408 - INFO - Retrying API call...
+2025-02-20 12:41:39,636 - WARNING - API call attempt 2 failed: HTTPSConnectionPool(host='synchange.com', port=443): Read timed out. (read timeout=10)
+2025-02-20 12:41:39,637 - INFO - Retrying API call...
+2025-02-20 12:41:41,007 - INFO - Checking compliance for document: Article 5 Number 7.txt
+2025-02-20 12:41:51,222 - WARNING - API call attempt 1 failed: HTTPSConnectionPool(host='synchange.com', port=443): Read timed out. (read timeout=10)
+2025-02-20 12:41:51,224 - INFO - Retrying API call...
+2025-02-20 12:42:09,531 - WARNING - API call attempt 1 failed: HTTPSConnectionPool(host='synchange.com', port=443): Read timed out. (read timeout=10)
+2025-02-20 12:42:09,534 - INFO - Retrying API call...
+2025-02-20 13:01:11,683 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-02-20 13:01:15,699 - INFO - Checking compliance for document: Article 5 Number 7.txt
+2025-02-20 13:01:17,197 - INFO - Checking compliance for document: Article 5 Number 5.txt
+2025-02-20 13:01:21,708 - INFO - Checking compliance for document: Article Annex 3 Number 9.txt
+2025-02-20 13:01:24,970 - INFO - Checking compliance for document: Article Annex 3 Number 10.txt
+2025-02-20 13:11:43,289 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-02-20 13:11:45,419 - INFO - Checking compliance for document: Article 5 Number 5.txt
+2025-02-20 13:11:47,301 - INFO - Checking compliance for document: Article 5 Number 7.txt
+2025-02-20 13:11:52,075 - INFO - Checking compliance for document: Article Annex 3 Number 9.txt
+2025-02-20 13:11:53,344 - INFO - Checking compliance for document: Article Annex 3 Number 10.txt
+2025-02-20 13:21:18,839 - INFO - Checking compliance for document: Article Annex 3 Number 11.txt
+2025-02-20 13:21:21,837 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-02-20 13:21:24,702 - INFO - Checking compliance for document: Article 5 Number 7.txt
+2025-02-20 13:21:26,646 - INFO - Checking compliance for document: Article Annex 3 Number 9.txt
+2025-02-20 13:21:28,598 - INFO - Checking compliance for document: Article Annex 3 Number 10.txt
+2025-02-20 13:25:05,325 - INFO - Checking compliance for document: Article 5 Number 6.txt
+2025-02-20 13:25:08,253 - INFO - Checking compliance for document: Article 5 Number 7.txt
+2025-02-20 13:25:09,784 - INFO - Checking compliance for document: Article 5 Number 5.txt
+2025-02-20 13:25:11,460 - INFO - Checking compliance for document: Article Annex 3 Number 9.txt
+2025-02-20 13:25:13,282 - INFO - Checking compliance for document: Article Annex 3 Number 10.txt

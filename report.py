@@ -7,6 +7,8 @@ from core.rag_compliance import analyze_compliance
 import pandas as pd
 import re
 import requests
+import logging
+
 
 
 
@@ -16,7 +18,8 @@ def format_dict(data):
 
 def get_summary(content, retries=3):
     prompt = (
-        f"Analyze the following content and sumurize it in a paragraph"   
+        f"Analyze the following content and sumurize it in a paragraph"
+        f"Start the paragraph with the assosiated Risk level of the System: unacceptable or high or limited or minimal\n\n" 
         f"Do not mention the lenght of the content\n\n"
         f"Content: {content}\n\n"
     )
@@ -130,9 +133,16 @@ def display_risk(risk_level):
     "minimal"
     ]
     risk_level= risk_level.lower()
-    switch
+    if risk_level == risk_levels[0]:
+        st.error('Unacceptable Risk', icon="❌")
+    elif risk_level == risk_levels[1]:
+        st.error('High Risk', icon="❌")
+    elif risk_level == risk_levels[2]:
+        st.warning('Limited Risk', icon="⚠️")
+    elif risk_level == risk_levels[3]:
+        st.success('Minimal Risk', icon="✅")
+
     #st.success('Minimal Risk', icon="✅")
     #st.warning('Limited Risk', icon="⚠️")
     #st.error('High Risk', icon="❌")
-    #st.error('Unacceptable Risk', icon="❌")
     

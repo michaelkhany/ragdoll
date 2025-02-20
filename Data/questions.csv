@@ -1,6 +1,6 @@
 ID,Question,Section,Example,Information,Resources
-1,What is the primary purpose of your General Purpose AI system?,System Information,Example 1,Information 1,Resources 1
-2,What are the specific applications or domains where your AI system will be used? ,System Information,,,
+1,Were any data-cleaning steps applied before using the datasets?, System Information,e.g. Eliminate Duplicate or Irrelevant Data Correct Structural Errors Filter Outliers Address Missing Data Validate and Quality-Check, Data and Data Governance Requires that datasets used for training validation and testing be relevant representative free of errors and complete.,Annex IV Article 10 point 2
+2,Are there any restrictions on the use of the datasets due to licensing or data protection laws?,System Information,Using personal data (e.g. names email addresses or health records) without explicit consent from individuals violates GDPR. For instance training an AI system on healthcare data without patient consent is illegal.,The EU AI Act prohibits certain uses of artificial intelligence (AI). These include AI systems that manipulate people's decisions or exploit their vulnerabilities systems that evaluate or classify people based on their social behavior or personal traits and systems that predict a person's risk of committing a crime.,Article 5 – Prohibited AI Practices Article 6 Annex 5
 3,Is your system a General Purpose AI model?,System Information,,,
 4,Is your system capable of adapting to new tasks autonomously?,System Information,,,
 5,Does your system fall within any of the following categories?,System Information,,,

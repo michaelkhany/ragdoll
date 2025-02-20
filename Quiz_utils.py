@@ -6,9 +6,10 @@ import numpy as np
 import json
 from Data import *
 import random as ll
+from math import ceil
 
 def load_questions():
-    df = pd.read_csv("Data/questions.csv")
+    df = pd.read_csv("Data/final.csv")
     df.fillna("", inplace=True)
     return df
 
@@ -27,14 +28,29 @@ def get_next_question(QA, current_question_ID):
     return next_question_ID, stop
 
 
-def get_n_questions(QA, remaining_questions):
+
+
+def get_n_questions():
     #to do 
     stop = False
+    
     #nextQ = ll.randint(question_remaining['ID'].iloc[0], load_questions()['ID'].iloc[0]) - 1
-    nextQ = ll.randint(st.session_state.current_question, load_questions()['ID'].iloc[-1]) 
+    # nextQ = ll.randint(st.session_state.current_question+1, load_questions()['ID'].iloc[-1]) 
+    edge =ceil(((load_questions()['ID'].iloc[-1])+st.session_state.current_question)/2)
+    nextQ = ll.randint(st.session_state.current_question, edge) 
     #if last question
+    print("next1:",nextQ)
+    print("edge:",edge)
+    print("edge:",edge)
+    #while nextQ > load_questions()['ID'].iloc[-1]:
+        #nextQ = ll.randint(st.session_state.current_question, load_questions()['ID'].iloc[-1] - n + 1)
+
+    # if nextQ == st.session_state.current_question:
+    #     nextQ = nextQ + 1
     if nextQ == load_questions()['ID'].iloc[-1]:
         stop = True
+
+    print("next2:",nextQ)
     return nextQ ,stop
 
 

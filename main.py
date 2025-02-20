@@ -5,7 +5,7 @@ import pandas as pd
 import numpy as np
 #from streamlit_cookies_controller import CookieController
 from core.rag_compliance import analyze_compliance 
-
+import os
 from Quiz_utils import *
 from Home import *
 from Quiz import *
@@ -37,6 +37,8 @@ st.markdown("""
 
 
 def main():
+    #run comand: streamlit run main.py
+    
     st.markdown('<style>' + open(r'style.css').read() + '</style>', unsafe_allow_html=True)
 
     all_questions = load_questions()
@@ -109,7 +111,12 @@ def main():
         )
         result= show_results()
         clean_result = extract_non_compliant_entries(result)
-        st.markdown(get_summary(clean_result[1]), unsafe_allow_html=True)
+        summary = get_summary(clean_result[1])
+        #risk = first word of summary after removing punctuation and to lower()
+        risk = summary.split(" ")[0].lower().strip().replace(":", "")
+        display_risk(risk)
+        st.markdown(f"""<br/>""", unsafe_allow_html=True)
+        st.markdown(summary, unsafe_allow_html=True)
         st.markdown(f"""<br/>""", unsafe_allow_html=True)
         df_s=clean_result[0]
         with st.expander("Non Compliant Entries", expanded=True):
@@ -155,4 +162,5 @@ def main():
 
 
 if __name__ == "__main__":
+    #os.system('streamlit run main.py')
     main()

@@ -1,22 +1,42 @@
 {
     "1": {
-        "Question": "What is the primary purpose of your General Purpose AI system?",
-        "Answer": "d"
+        "Question": "What is the primary purpose of your AI system?",
+        "Answer": "s"
     },
-    "50": {
-        "Question": "Could the system result in a risk of physical or psychological injury?",
-        "Answer": "l"
+    "20": {
+        "Question": "Were any data-cleaning steps applied before using the datasets?",
+        "Answer": "s"
+    },
+    "32": {
+        "Question": "Was any personal data collected for training validation or testing?",
+        "Answer": "s"
+    },
+    "39": {
+        "Question": "Who will be most directly involved in using or operating the system?",
+        "Answer": "s"
+    },
+    "40": {
+        "Question": "Who will be involved in the system design and development?",
+        "Answer": "s"
+    },
+    "43": {
+        "Question": "Are there mechanisms in place to address any identified discriminatory effects?",
+        "Answer": "s"
+    },
+    "47": {
+        "Question": "Do the consequences of misuse differ for any marginalized groups?",
+        "Answer": "ss"
+    },
+    "49": {
+        "Question": "Could the AI system uphold or become a threat to human rights?",
+        "Answer": "s"
     },
     "51": {
-        "Question": "Does the system meet the definition of a Restricted Use?",
-        "Answer": "j"
+        "Question": "What harms might this stakeholder experience if the AI system does not effectively solve the intended problem?",
+        "Answer": "s"
     },
-    "54": {
-        "Question": "What harms might this stakeholder experience if they are unaware that they are interacting with an AI system \r\nwhen that system impersonates human interaction or generates or manipulates image, audio or video \r\ncontent that could falsely appear to be authentic? ",
-        "Answer": "ham"
-    },
-    "55": {
-        "Question": "What risk management measures are adopted to address the known and foreseeable risks of high-risk AI systems to health, safety, or fundamental rights when used as intended?",
-        "Answer": "u"
+    "52": {
+        "Question": "What harms might this stakeholder experience if they are unaware that they are interacting with an AI system when that system impersonates human interaction or generates or manipulates image audio or video content that could falsely appear to be authentic?",
+        "Answer": "s"
     }
 }

@@ -1,0 +1,22 @@
+{
+    "1": {
+        "Question": "What is the primary purpose of your General Purpose AI system?",
+        "Answer": "d"
+    },
+    "50": {
+        "Question": "Could the system result in a risk of physical or psychological injury?",
+        "Answer": "l"
+    },
+    "51": {
+        "Question": "Does the system meet the definition of a Restricted Use?",
+        "Answer": "j"
+    },
+    "54": {
+        "Question": "What harms might this stakeholder experience if they are unaware that they are interacting with an AI system \r\nwhen that system impersonates human interaction or generates or manipulates image, audio or video \r\ncontent that could falsely appear to be authentic? ",
+        "Answer": "ham"
+    },
+    "55": {
+        "Question": "What risk management measures are adopted to address the known and foreseeable risks of high-risk AI systems to health, safety, or fundamental rights when used as intended?",
+        "Answer": "u"
+    }
+}

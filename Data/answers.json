@@ -3,32 +3,40 @@
         "Question": "What is the primary purpose of your AI system?",
         "Answer": "s"
     },
-    "20": {
-        "Question": "Were any data-cleaning steps applied before using the datasets?",
+    "15": {
+        "Question": "Were any demographic groups underrepresented or overrepresented in the datasets?",
         "Answer": "s"
     },
-    "32": {
-        "Question": "Was any personal data collected for training validation or testing?",
+    "21": {
+        "Question": "Are there any restrictions on the use of the datasets due to licensing or data protection laws?",
+        "Answer": "s"
+    },
+    "34": {
+        "Question": "What are the expected output types of the system?",
+        "Answer": "s"
+    },
+    "35": {
+        "Question": "Does your system provides Back-Up Data ?",
+        "Answer": "s"
+    },
+    "37": {
+        "Question": "Was any bias identified in the training validation or testing datasets?",
         "Answer": "s"
     },
     "39": {
         "Question": "Who will be most directly involved in using or operating the system?",
         "Answer": "s"
     },
-    "40": {
-        "Question": "Who will be involved in the system design and development?",
-        "Answer": "s"
-    },
-    "43": {
-        "Question": "Are there mechanisms in place to address any identified discriminatory effects?",
+    "41": {
+        "Question": "Who are the stakeholders for each intended use?",
         "Answer": "s"
     },
     "47": {
         "Question": "Do the consequences of misuse differ for any marginalized groups?",
-        "Answer": "ss"
+        "Answer": "s"
     },
-    "49": {
-        "Question": "Could the AI system uphold or become a threat to human rights?",
+    "48": {
+        "Question": "Assess whether your system deduces sensitive attributes or if it categorises non-sensitive attributes",
         "Answer": "s"
     },
     "51": {

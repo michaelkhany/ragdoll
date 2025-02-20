@@ -49,6 +49,10 @@ def get_n_questions():
     #     nextQ = nextQ + 1
     if nextQ == load_questions()['ID'].iloc[-1]:
         stop = True
+        return nextQ ,stop
+        
+    if nextQ == st.session_state.current_question:
+        nextQ = nextQ + 1
 
     print("next2:",nextQ)
     return nextQ ,stop
